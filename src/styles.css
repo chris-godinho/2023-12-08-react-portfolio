@@ -1,0 +1,134 @@
+body {
+    color: #F5F5F5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body a {
+    color: #F5F5F5;
+}
+
+body a:hover {
+    color: #F1D302;
+}
+
+.full-height-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F5F5F5;
+    background-color: #2B303B;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.navbar {
+    color: #F5F5F5;
+    background-color: #22262F;
+}
+
+footer {
+    color: #9B4F96;
+    background-color: #22262F;
+}
+
+.nav-title, .nav-title:hover, .nav-title:focus, .nav-title:active {
+    color:#9B4F96 !important;
+    font-size: 50px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #9B4F96 !important;
+}
+
+.navbar a {
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+.navbar a:hover, a:focus {
+    color: #F1D302 !important;
+}
+
+.about-me-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-me-side-image {
+    flex-basis: 250px; /* Adjust the width as needed */
+    margin-right: 10px;
+}
+
+.about-me-side-image img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.about-me-txt {
+    flex: 1;
+}
+
+.flex-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-width {
+    width: 40%;
+}
+
+footer a {
+    color: #9B4F96;
+}
+
+footer a:hover {
+    color: #F1D302;
+}
+
+.custom-card-body {
+    background-color: #9B4F96;
+    color:#F5F5F5;
+}
+
+.custom-btn {
+    background-color: #F1D302;
+    color: #22262F;
+}
+
+.custom-btn:hover {
+    background-color: #FDE85D;
+    color: #22262F;
+    font-weight: bold;
+}
+
+.body-width {
+    padding: 10%;
+}
+
+.resume-block {
+    flex-grow: 1;
+}
+
+.error-text {
+    color: #F1D302;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+h1 {
+    color: #9B4F96;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+h4 {
+    color: #9B4F96;
+    padding-top: 20px;
+}
