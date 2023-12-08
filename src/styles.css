@@ -11,6 +11,11 @@ body a:hover {
     color: #F1D302;
 }
 
+.container-fluid {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .full-height-container {
     min-height: 100vh;
     display: flex;
@@ -20,8 +25,10 @@ body a:hover {
     background-color: #2B303B;
 }
 
-.navbar-collapse {
-    flex-grow: 0 !important;
+.navbar-linklist {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
 }
 
 .navbar {
@@ -30,18 +37,18 @@ body a:hover {
 }
 
 footer {
-    color: #9B4F96;
+    color: #B36BAE;
     background-color: #22262F;
 }
 
 .nav-title, .nav-title:hover, .nav-title:focus, .nav-title:active {
-    color:#9B4F96 !important;
+    color:#B36BAE !important;
     font-size: 50px;
 }
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
-    color: #9B4F96 !important;
+    color: #B36BAE !important;
 }
 
 .navbar a {
@@ -53,24 +60,15 @@ footer {
     color: #F1D302 !important;
 }
 
-.about-me-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.about-me-side-image {
-    flex-basis: 250px; /* Adjust the width as needed */
-    margin-right: 10px;
+.about-me-container p {
+    text-align: justify;
 }
 
 .about-me-side-image img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-}
-
-.about-me-txt {
-    flex: 1;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    border-radius: 15px;
 }
 
 .flex-page {
@@ -80,19 +78,39 @@ footer {
 }
 
 .card-width {
-    width: 40%;
+    max-width: 40%;
+    margin-bottom: 50px;
+}
+
+form .custom-btn {
+    margin-top: 20px;
 }
 
 footer a {
-    color: #9B4F96;
+    color: #B36BAE;
 }
 
 footer a:hover {
     color: #F1D302;
 }
 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.tray-icon-size {
+    height: 2.5em;
+    padding-right: 5px;
+}
+
 .custom-card-body {
-    background-color: #9B4F96;
+    background-color: #B36BAE;
     color:#F5F5F5;
 }
 
@@ -123,12 +141,43 @@ footer a:hover {
 }
 
 h1 {
-    color: #9B4F96;
+    color: #B36BAE;
     padding-bottom: 30px;
     font-weight: bold;
 }
 
 h4 {
-    color: #9B4F96;
+    color: #B36BAE;
     padding-top: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .container-fluid {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .nav-title {
+        align-self: flex-start;
+    }
+
+    .navbar-linklist {
+        align-self: flex-start;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .icon-tray {
+        margin-bottom: 20px;
+    }
+
+    .card-width {
+        max-width: 100%;
+    }
 }
