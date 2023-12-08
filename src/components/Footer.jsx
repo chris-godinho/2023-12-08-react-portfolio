@@ -1,6 +1,6 @@
-import gitHubIcon from "../images/github_wt_icon.png";
-import linkedInIcon from "../images/linkedin_wt_icon.png";
-import xIcon from "../images/x_wt_icon.png";
+import gitHubIcon from "/images/github_wt_icon.png";
+import linkedInIcon from "/images/linkedin_wt_icon.png";
+import xIcon from "/images/x_wt_icon.png";
 
 function Footer() {
   return (

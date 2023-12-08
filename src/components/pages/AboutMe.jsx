@@ -1,4 +1,4 @@
-import chrisPhoto from '../../images/chris_hs.jpg';
+import chrisPhoto from '/images/chris_hs.jpg';
 
 export default function AboutMe() {
   return (
