@@ -1,10 +1,10 @@
-// import Project from './Project';
-import tuneMuseImage from '/src/assets/images/tuneMuse.jpeg';
-import travisImage from '/src/assets/images/travis.jpg';
-import noteTakerImage from '/src/assets/images/notetaker.jpeg';
-import weatherForecastImage from '/src/assets/images/weatherforecast.jpeg';
-import jsQuizImage from '/src/assets/images/js_quiz.jpeg';
-import techBlogImage from '/src/assets/images/techblog.jpeg';
+import Project from './Project';
+import tuneMuseImage from '../../assets/images/tuneMuse.jpeg';
+import travisImage from '../../assets/images/travis.jpg';
+import noteTakerImage from '../../assets/images/notetaker.jpeg';
+import weatherForecastImage from '../../assets/images/weatherforecast.jpeg';
+import jsQuizImage from '../../assets/images/js_quiz.jpeg';
+import techBlogImage from '../../assets/images/techblog.jpeg';
 
 export default function Portfolio() {
   const cardsData = [
@@ -55,15 +55,7 @@ export default function Portfolio() {
   return (
     <div className="flex-page">
       {cardsData.map((card) => (
-          <div className="card card-width">
-            <img src={card.imageUrl} className="card-img-top" alt={card.title} />
-            <div className="card-body custom-card-body">
-              <h4 className="card-title">{card.title}</h4>
-              <p className="card-text">{card.description}</p>
-              <a href={card.link} className="btn btn-primary custom-btn">Give it a try</a>
-            </div>
-          </div>
-        // <Project key={card.id} imageUrl={card.imageUrl} title={card.title} link={card.link} description={card.description}/>
+        <Project key={card.id} imageUrl={card.imageUrl} title={card.title} link={card.link} description={card.description}/>
       ))}
     </div>
   );
