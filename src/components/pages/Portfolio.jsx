@@ -1,18 +1,9 @@
 import Project from './Project';
-/*
-import tuneMuseImage from '../../assets/images/tuneMuse.jpeg';
-import travisImage from '../../assets/images/travis.jpg';
-import noteTakerImage from '../../assets/images/notetaker.jpeg';
-import weatherForecastImage from '../../assets/images/weatherforecast.jpeg';
-import jsQuizImage from '../../assets/images/js_quiz.jpeg';
-import techBlogImage from '../../assets/images/techblog.jpeg';
-*/
 
 export default function Portfolio() {
   const cardsData = [
     {
       id: 1,
-      // imageUrl: tuneMuseImage,
       imageUrl: '/tunemuse.jpeg',
       title: 'Tune-Muse',
       link: 'https://tune-muse-team.github.io/tunemuse/',
@@ -20,7 +11,6 @@ export default function Portfolio() {
     },
     {
       id: 2,
-      // imageUrl: travisImage,
       imageUrl: '/travis.jpg',
       title: 'TravIS',
       link: 'https://travis231017-9762a24c277b.herokuapp.com/',
@@ -28,7 +18,6 @@ export default function Portfolio() {
     },
     {
       id: 3,
-      // imageUrl: jsQuizImage,
       imageUrl: '/js_quiz.jpeg',
       title: 'JavaScript Quiz',
       link: 'https://kristbg.github.io/2023-08-03-javascript-quiz-game/',
@@ -36,7 +25,6 @@ export default function Portfolio() {
     },
     {
       id: 4,
-      // imageUrl: techBlogImage,
       imageUrl: '/techblog.jpeg',
       title: "Chris' Tech Thoughts",
       link: 'https://peaceful-dawn-48719-8b024e4e358e.herokuapp.com/',
@@ -44,7 +32,6 @@ export default function Portfolio() {
     },
     {
       id: 5,
-      // imageUrl: weatherForecastImage,
       imageUrl: '/weatherforecast.jpeg',
       title: 'Weather Forecast',
       link: 'https://kristbg.github.io/2023-08-21-weather-forecast/',
@@ -52,7 +39,6 @@ export default function Portfolio() {
     },
     {
       id: 6,
-      // imageUrl: noteTakerImage,
       imageUrl: '/notetaker.jpeg',
       title: 'Note Taker',
       link: 'https://immense-brook-26564-3b2b5bd98ff7.herokuapp.com/',

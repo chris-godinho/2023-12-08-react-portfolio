@@ -1,5 +1,3 @@
-// import chrisPhoto from '../../assets/images/chris_hs.jpg';
-
 export default function AboutMe() {
   return (
     <div>
