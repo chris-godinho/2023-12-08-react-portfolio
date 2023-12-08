@@ -1,4 +1,4 @@
-import chrisPhoto from '../../assets/images/chris_hs.jpg';
+// import chrisPhoto from '../../assets/images/chris_hs.jpg';
 
 export default function AboutMe() {
   return (
@@ -6,7 +6,7 @@ export default function AboutMe() {
       <h1>About Me</h1>
       <div className="about-me-container">
         <div className="about-me-side-image">
-          <img src={chrisPhoto} alt="Chris Godinho" />
+          <img src="/chris_hs.jpg" alt="Chris Godinho" />
         </div>
         <p>
           Nulla ullamcorper porta dolor, eu eleifend arcu feugiat eu. Fusce mattis ultrices lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus commodo eget dui in ultricies. Ut eleifend ut urna quis mattis. Nunc sagittis ante ac dui varius dapibus. Aenean sodales, erat id bibendum volutpat, tellus diam sollicitudin lorem, sit amet congue sapien turpis a risus. Donec purus urna, suscipit sit amet lorem sit amet, iaculis hendrerit mauris. Quisque ut sapien urna. In dignissim ante id urna iaculis vestibulum. Nullam aliquam metus nec risus cursus volutpat. Mauris vitae ipsum libero. Etiam suscipit orci quis sem auctor, non ultrices diam lobortis.
