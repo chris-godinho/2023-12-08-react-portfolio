@@ -1,5 +1,5 @@
 import Project from './Project';
-import tuneMuseImage from '/images/tuneMuse.jpeg';
+import tuneMuseImage from '../../images/tuneMuse.jpeg';
 import travisImage from '/images/travis.jpg';
 import noteTakerImage from '/images/notetaker.jpeg';
 import weatherForecastImage from '/images/weatherforecast.jpeg';
