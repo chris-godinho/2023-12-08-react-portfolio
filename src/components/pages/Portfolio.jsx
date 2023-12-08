@@ -1,10 +1,10 @@
 // import Project from './Project';
-import tuneMuseImage from 'src/assets/images/tuneMuse.jpeg';
-import travisImage from '../../assets/images/travis.jpg';
-import noteTakerImage from '../../assets/images/notetaker.jpeg';
-import weatherForecastImage from '../../assets/images/weatherforecast.jpeg';
-import jsQuizImage from '../../assets/images/js_quiz.jpeg';
-import techBlogImage from '../../assets/images/techblog.jpeg';
+import tuneMuseImage from '/src/assets/images/tuneMuse.jpeg';
+import travisImage from '/src/assets/images/travis.jpg';
+import noteTakerImage from '/src/assets/images/notetaker.jpeg';
+import weatherForecastImage from '/src/assets/images/weatherforecast.jpeg';
+import jsQuizImage from '/src/assets/images/js_quiz.jpeg';
+import techBlogImage from '/src/assets/images/techblog.jpeg';
 
 export default function Portfolio() {
   const cardsData = [
