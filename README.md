@@ -4,7 +4,7 @@
 
 A single-page portfolio application using React capabilities.
 
-![A render of the app in execution](/public/images/readme_render.jpg)
+![A render of the app in execution](/readme_render.jpg)
 
 ## Installation
 
