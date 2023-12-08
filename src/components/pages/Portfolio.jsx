@@ -1,4 +1,4 @@
-import Project from './Project';
+// import Project from './Project';
 import tuneMuseImage from '../../assets/images/tuneMuse.jpeg';
 import travisImage from '../../assets/images/travis.jpg';
 import noteTakerImage from '../../assets/images/notetaker.jpeg';
@@ -55,7 +55,15 @@ export default function Portfolio() {
   return (
     <div className="flex-page">
       {cardsData.map((card) => (
-        <Project key={card.id} imageUrl={card.imageUrl} title={card.title} link={card.link} description={card.description}/>
+          <div className="card card-width">
+            <img src={card.imageUrl} className="card-img-top" alt={card.title} />
+            <div className="card-body custom-card-body">
+              <h4 className="card-title">{card.title}</h4>
+              <p className="card-text">{card.description}</p>
+              <a href={card.link} className="btn btn-primary custom-btn">Give it a try</a>
+            </div>
+          </div>
+        // <Project key={card.id} imageUrl={card.imageUrl} title={card.title} link={card.link} description={card.description}/>
       ))}
     </div>
   );
