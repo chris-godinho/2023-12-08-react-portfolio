@@ -114,6 +114,16 @@ footer a:hover {
     color:#F5F5F5;
 }
 
+.card-body-top-row {
+    display: flex;
+    align-items: center;
+}
+
+.project-icon {
+    height: 35px;
+    margin-left: 10px;
+}
+
 .custom-btn {
     background-color: #F1D302;
     color: #22262F;
