@@ -190,4 +190,17 @@ h4 {
     .card-width {
         max-width: 100%;
     }
+
+    .nav-title, .nav-title:hover, .nav-title:focus, .nav-title:active {
+        font-size: 30px;
+    }
+
+    .about-me-side-image img {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-note {
+        text-align: left;
+    }
 }

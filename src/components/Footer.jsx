@@ -13,7 +13,7 @@ function Footer() {
             <img src="/x_wt_icon.png" className="tray-icon-size" alt="X" />
           </a>
         </div>
-        <p>Created by Chris Godinho using <a href="https://react.dev/">React</a>. All rights reserved.</p>
+        <p className="footer-note">Created by Chris Godinho using <a href="https://react.dev/">React</a>. All rights reserved.</p>
       </div>
     </footer>
   );
