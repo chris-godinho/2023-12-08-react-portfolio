@@ -4,6 +4,14 @@ export default function Portfolio() {
   const cardsData = [
     {
       id: 1,
+      imageUrl: '/workflow.jpg',
+      title: 'Workflow',
+      link: 'https://workflow-oj8s.onrender.com/',
+      repoLink: 'https://github.com/project3-team3/workflow-app',
+      description: 'A productivity app with an emphasis on keeping a healthy work/life balance.',
+    },
+    {
+      id: 2,
       imageUrl: '/tunemuse.jpeg',
       title: 'Tune-Muse',
       link: 'https://tune-muse-team.github.io/tunemuse/',
@@ -11,7 +19,7 @@ export default function Portfolio() {
       description: 'An AI-curated music application that provides song recommendations based on a set of parameters and text queries entered by the user.'
     },
     {
-      id: 2,
+      id: 3,
       imageUrl: '/travis.jpg',
       title: 'TravIS',
       link: 'https://travis231017-9762a24c277b.herokuapp.com/',
@@ -19,7 +27,7 @@ export default function Portfolio() {
       description: 'TravIS (or TRAVel Interface System) is a useful tool for planning your next trip and discovering new horizons to explore.',
     },
     {
-      id: 3,
+      id: 4,
       imageUrl: '/js_quiz.jpeg',
       title: 'JavaScript Quiz',
       link: 'https://kristbg.github.io/2023-08-03-javascript-quiz-game/',
@@ -27,7 +35,7 @@ export default function Portfolio() {
       description: 'An interactive quiz game on basic JavaScript knowledge.',
     },
     {
-      id: 4,
+      id: 5,
       imageUrl: '/techblog.jpeg',
       title: "Chris' Tech Thoughts",
       link: 'https://peaceful-dawn-48719-8b024e4e358e.herokuapp.com/',
@@ -35,21 +43,13 @@ export default function Portfolio() {
       description: "A blog where developers can publish their posts as well as comment on other developers'.",
     },
     {
-      id: 5,
+      id: 6,
       imageUrl: '/weatherforecast.jpeg',
       title: 'Weather Forecast',
       link: 'https://kristbg.github.io/2023-08-21-weather-forecast/',
       repoLink: 'https://github.com/chris-godinho/2023-08-21-weather-forecast',
       description: 'A simple application for obtaining the weather forecast for a given city, obtaining data through the OpenWeather API.',
-    },
-    {
-      id: 6,
-      imageUrl: '/notetaker.jpeg',
-      title: 'Note Taker',
-      link: 'https://immense-brook-26564-3b2b5bd98ff7.herokuapp.com/',
-      repoLink: 'https://github.com/chris-godinho/2023-09-27-note-taker',
-      description: 'A simple application for taking and saving notes ',
-    },
+    }
   ];
 
   return (
